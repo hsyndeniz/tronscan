@@ -66,8 +66,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const tronWeb = new TronWeb({
-    fullHost: 'http://34.194.89.253:9090',
-    privateKey: `9ad4f52a33a632de62c6cde0b6f33cdfd72099457c6fcb1bf4968056e968a3f6`
+    fullHost: 'https://api.ideachaincoin.com'
 });
 
 const tronGrid = new TronGrid(tronWeb);
